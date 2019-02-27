@@ -1,0 +1,217 @@
+Varghese P P
+S4 D 53
+Script started on Thursday 07 February 2019 04:39:45 PM IST
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         log.txt  [01;34mPictures[0m  sd.txt     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m    [01;34mPublic[0m    [01;34mTemplates[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls-l
+ls-l: command not found
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -l
+total 48
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 15:17 examples.desktop
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 16:39 log.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mPublic[0m
+-rw-rw-r-- 1 s4d2 s4d2    6 Feb  7 16:28 sd.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mVideos[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat > ds.txt
+hello
+^C
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat hello.txt[K[K[K[K[K[K[K[K[Kds.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ grep h ds.txt
+[01;31m[Kh[m[Kello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ rm -i ds.txt
+rm: remove regular file 'ds.txt'? y
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         log.txt  [01;34mPictures[0m  sd.txt     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m    [01;34mPublic[0m    [01;34mTemplates[0m
+
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias sd.txt+[K=sg
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         log.txt  [01;34mPictures[0m  sd.txt     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m    [01;34mPublic[0m    [01;34mTemplates[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -l
+total 52
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 15:17 examples.desktop
+-rw-rw-r-- 1 s4d2 s4d2 4096 Feb  7 16:52 log.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mPublic[0m
+-rw-rw-r-- 1 s4d2 s4d2    6 Feb  7 16:28 sd.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mVideos[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias sd.[K[Kg='sd.txt'
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         log.txt  [01;34mPictures[0m  sd.txt     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m    [01;34mPublic[0m    [01;34mTemplates[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -l
+total 52
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 15:17 examples.desktop
+-rw-rw-r-- 1 s4d2 s4d2 4096 Feb  7 16:52 log.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mPublic[0m
+-rw-rw-r-- 1 s4d2 s4d2    6 Feb  7 16:28 sd.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 15:34 [01;34mVideos[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat sg
+cat: sg: No such file or directory
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat s[K[K[K[K[Kalias[K[K[K[K[Kcat sg.txt
+cat: sg.txt: No such file or directory
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias --help
+bash: alias: --: invalid option
+alias: usage: alias [-p] [name[=value] ... ]
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ pwd
+/home/s4d2
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat-E sd.txt
+cat-E: command not found
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat A sd.txt
+cat: A: No such file or directory
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat -a [K[KA sd [K.txt
+hello$
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat sd.txt[K[K[Ktxt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat sd.txt-A sd.txt[C[1P sd.txte sd.txt[1P sd.txt[C[C[C[C[C[C[CE sd.txt[C[C[C[C[C[C
+hello$
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat -E sd.txt[3Psd.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$  cat sd.txt-E sd.txt[3Psd.txt-E sd.txt[1P[1@-[C[1P sd.txtT sd.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ la [K[K[Kls -a
+[0m[01;34m.[0m              [01;34m.config[0m           [01;34m.gconf[0m         [01;34mMusic[0m        [01;34mTemplates[0m
+[01;34m..[0m             [01;34mDesktop[0m           [01;34m.gnupg[0m         [01;34mPictures[0m     [01;34mVideos[0m
+.bash_history  .dmrc             .ICEauthority  .profile     .Xauthority
+.bash_logout   [01;34mDocuments[0m         [01;34m.local[0m         [01;34mPublic[0m       .xsession-errors
+.bashrc        [01;34mDownloads[0m         log.txt        sd.txt
+[01;34m.cache[0m         examples.desktop  [01;34m.mozilla[0m       .sd.txt.swp
+
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$  [Kls --helpa[K[C[KA
+.bash_history  .dmrc             .ICEauthority  .profile     .Xauthority
+.bash_logout   [0m[01;34mDocuments[0m         [01;34m.local[0m         [01;34mPublic[0m       .xsession-errors
+.bashrc        [01;34mDownloads[0m         log.txt        sd.txt
+[01;34m.cache[0m         examples.desktop  [01;34m.mozilla[0m       .sd.txt.swp
+[01;34m.config[0m        [01;34m.gconf[0m            [01;34mMusic[0m          [01;34mTemplates[0m
+[01;34mDesktop[0m        [01;34m.gnupg[0m            [01;34mPictures[0m       [01;34mVideos[0m
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$  [Kls -C
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         log.txt  [01;34mPictures[0m  sd.txt     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m    [01;34mPublic[0m    [01;34mTemplates[0m
+
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -s
+total 68
+ 4 [0m[01;34mDesktop[0m    12 examples.desktop   4 [01;34mPictures[0m   4 [01;34mTemplates[0m
+ 4 [01;34mDocuments[0m  20 log.txt            4 [01;34mPublic[0m     4 [01;34mVideos[0m
+ 4 [01;34mDownloads[0m   4 [01;34mMusic[0m              4 sd.txt
+
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort -d sd.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat he[K[Ksd.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort -R sd.txt
+hello
+
+
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort --sort=hello sd.txt[C[1P sd.txt[1P sd.txt[1P sd.txt[1P sd.txt[1P sd.txtr sd.txta sd.txtn sd.txtd sd.txto sd.txtm sd.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat > sd[K[Kds.txt
+1
+5
+2
+8
+4
+0
+7
+^C
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat ds.txt
+1
+5
+2
+8
+4
+0
+7
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort --sort=general nu[K[K[K-numeric ds.txt
+0
+1
+2
+4
+5
+7
+8
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ soprt[K[K[Krt -n ds.txt
+0
+1
+2
+4
+5
+7
+8
+
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat sd.txt
+hello
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ rm sd.txt
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat > sd.txt
+a
+e
+t
+w
+i
+f
+^C
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ paste -d sd.txt
+q
+q
+e
+e
+t
+t
+u
+u
+we
+we
+^C
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat sd.txt
+a
+e
+t
+w
+i
+f
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ paste ds.ttx[K[Kxt sd.txt
+1	a
+5	e
+2	t
+8	w
+4	i
+0	f
+7	
+
+[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat >a[K a.txr[Kt
+1
+^[[A    2
+4
+^C
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat > b.txt
+a
+
+bc
+d
+^C
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ join a.txt b.txt
+join: b.txt:2: is not sorted: 
+]0;s4d2@ceclab1-Veriton-Series: ~[01;32ms4d2@ceclab1-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 07 February 2019 05:34:26 PM IST
