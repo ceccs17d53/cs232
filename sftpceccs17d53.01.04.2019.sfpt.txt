@@ -1,0 +1,37 @@
+Script started on Monday 01 April 2019 04:14:03 AM IST
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ pwd
+/home/s4dbatch2
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sfp[Ktp[ [K[K[Kp [2Ppwdsftp cs17d53@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d53@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> pwd
+Remote working directory: /home/cs17d53
+sftp> put s4d.txt[K[K[K[K[K[K[Ks4d.txt
+Uploading s4d.txt to /home/cs17d53/s4d.txt
+
+s4d.txt                                                                                                         0%    0     0.0KB/s   --:-- ETA
+s4d.txt                                                                                                       100%   13KB  12.9KB/s   00:00    
+sftp> get s4d.txt
+Fetching /home/cs17d53/s4d.txt to s4d.txt
+
+/home/cs17d53/s4d.txt                                                                                           0%    0     0.0KB/s   --:-- ETA
+/home/cs17d53/s4d.txt                                                                                         100%   13KB  12.9KB/s   00:00    
+sftp> pwd
+Remote working directory: /home/cs17d53
+sftp> ls
+examples.desktop  s4d.txt           s4dfoss           
+sftp> cd
+You must specify a path after a cd command.
+
+sftp> cd[K[Kpwd
+Remote working directory: /home/cs17d53
+sftp> exit
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ exit6[K
+exit
+
+Script done on Monday 01 April 2019 04:24:44 AM IST

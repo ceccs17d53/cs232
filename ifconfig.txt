@@ -1,0 +1,60 @@
+s4dbatch2@lab2-HCL-Desktop:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:50:d2:46  
+          inet addr:192.168.0.57  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fe50:d246/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:181486 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7292 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:17425777 (17.4 MB)  TX bytes:1710358 (1.7 MB)
+          Interrupt:42 Base address:0x4000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:1932 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1932 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:89652 (89.6 KB)  TX bytes:89652 (89.6 KB)
+
+s4dbatch2@lab2-HCL-Desktop:~$ ifconfig -a
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:50:d2:46  
+          inet addr:192.168.0.57  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fe50:d246/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:183180 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7292 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:17559906 (17.5 MB)  TX bytes:1710358 (1.7 MB)
+          Interrupt:42 Base address:0x4000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:1948 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1948 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:90372 (90.3 KB)  TX bytes:90372 (90.3 KB)
+
+s4dbatch2@lab2-HCL-Desktop:~$ ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:50:d2:46  
+          inet addr:192.168.0.57  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fe50:d246/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:183689 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7292 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:17603704 (17.6 MB)  TX bytes:1710358 (1.7 MB)
+          Interrupt:42 Base address:0x4000 
+
+s4dbatch2@lab2-HCL-Desktop:~$ ifconfig eth0 down
+SIOCSIFFLAGS: Permission denied
+s4dbatch2@lab2-HCL-Desktop:~$ sudo ifconfig eth0 down
+[sudo] password for s4dbatch2: 
+Sorry, try again.
+[sudo] password for s4dbatch2: 
+s4dbatch2@lab2-HCL-Desktop:~$ sudo ifconfig eth0 up
+s4dbatch2@lab2-HCL-Desktop:~$ 
+

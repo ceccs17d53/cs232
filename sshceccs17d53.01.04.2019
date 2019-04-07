@@ -1,0 +1,50 @@
+Script started on Monday 01 April 2019 05:34:56 AM IST
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ ssh csc[K17d53@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d53@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Apr  1 10:31:14 2019 from 192.168.0.57
+
+$ ls
+ceccs17d53.01.04.2019		ceccs17d53.01.04.2019.txt  s4dfoss  task
+ceccs17d53.01.04.2019.sfpt.txt	examples.desktop	   s4d.txt
+$ pwd
+/home/cs17d53
+$ mv s4d, .txt task
+$ cd task
+$ ls
+s4d.txt
+$ ls 
+s4d.txt
+$ cd ..
+$ pwd
+/home/cs17d53
+$ mkdir task1
+$ pwd
+/home/cs17d53
+$ cd task1
+$ ls
+$ pwd
+/home/cs17d53/task1
+$ cd ..
+$ pwd
+/home/cs17d53
+$ mv s4d.txt task1
+mv: cannot stat 's4d.txt': No such file or directory
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ exit
+exit
+
+Script done on Monday 01 April 2019 05:40:47 AM IST
