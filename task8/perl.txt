@@ -1,61 +1,0 @@
-Script started on 2019-04-08 10:56:09+0530
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo ap [Kt install perl
-[sudo] password for tpc: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-perl is already the newest version (5.26.1-6ubuntu0.3).
-The following packages were automatically installed and are no longer required:
-  airstrike-common fonts-taml-tscu freeglut3 liba52-0.7.4 libaribb24-0 libass9
-  libbasicusageenvironment1 libblas3 libcddb2 libdc1394-22 libdca0 libdvbpsi10
-  libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgfortran4 libgroupsock8
-  libkate1 liblapack3 liblivemedia62 liblua5.2-0 libmatroska6v5 libmicrodns0
-  libmpcdec6 libmpeg2-4 libnfs11 libopenmpt-modplug1 libplacebo4 libportmidi0
-  libpostproc54 libprotobuf-lite10 libproxy-tools libqt5x11extras5
-  libresid-builder0c2a libsdl-ttf2.0-0 libsidplay2 libsmpeg0 libssh2-1
-  libswscale4 libupnp6 libusageenvironment3 libva-wayland2 libvlc-bin libvlc5
-  libvlccore9 libvulkan1 linux-headers-4.15.0-36
-  linux-headers-4.15.0-36-generic linux-image-4.15.0-36-generic
-  linux-modules-4.15.0-36-generic linux-modules-extra-4.15.0-36-generic
-  python-numpy python-olefile python-opengl python-pil python-pygame
-  python-rabbyt vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify
-  vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
-  vlc-plugin-video-splitter vlc-plugin-visualization
-Use 'sudo apt autoremove' to remove them.
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ perl-v
-perl-v: command not found
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ perl -v
-
-This is perl 5, version 26, subversion 1 (v5.26.1) built for x86_64-linux-gnu-thread-multi
-(with 67 registered patches, see perl -V for more detail)
-
-Copyright 1987-2017, Larry Wall
-
-Perl may be copied only under the terms of either the Artistic License or the
-GNU General Public License, which may be found in the Perl 5 source kit.
-
-Complete documentation for Perl, including FAQ lists, should be found on
-this system using "man perl" or "perldoc perl".  If you have access to the
-Internet, point your browser at http://www.perl.org/, the Perl Home Page.
-
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ mkdir perl
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ cd perl
-]0;tpc@tpc-Veriton-Series: ~/perl[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/perl[00m$ cat hello.pl
-cat: hello.pl: No such file or directory
-]0;tpc@tpc-Veriton-Series: ~/perl[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/perl[00m$ cat >>[Khello.pl
-#! /usr/bin/perl
-use strict: ;
-use warnings;
-print "Hello\n";
-^C
-]0;tpc@tpc-Veriton-Series: ~/perl[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/perl[00m$ ls
-hello.pl
-]0;tpc@tpc-Veriton-Series: ~/perl[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/perl[00m$ perl hello.perl
-Can't open perl script "hello.perl": No such file or directory
-]0;tpc@tpc-Veriton-Series: ~/perl[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/perl[00m$ perl path/to [K/perl[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kperl hello.pl
-Hello
-]0;tpc@tpc-Veriton-Series: ~/perl[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/perl[00m$ exit
-exit
-
-Script done on 2019-04-08 11:09:02+0530
