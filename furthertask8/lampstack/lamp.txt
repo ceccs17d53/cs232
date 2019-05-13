@@ -1,0 +1,5273 @@
+Script started on 2019-04-27 11:25:53+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+
+
+//Installing Apache-webserver
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo apt update
+[sudo] password for sayooj_koroth: 
+[33m
+0% [Working][0m
+            
+Hit:1 http://security.ubuntu.com/ubuntu disco-security InRelease
+[33m
+0% [Connecting to in.archive.ubuntu.com (91.189.88.162)][0m[33m
+                                                        
+0% [Waiting for headers][0m
+                        
+Hit:2 http://in.archive.ubuntu.com/ubuntu disco InRelease
+[33m
+0% [Waiting for headers][0m
+                        
+Hit:3 http://in.archive.ubuntu.com/ubuntu disco-updates InRelease
+[33m
+                        
+0% [Working][0m[33m
+0% [Waiting for headers][0m
+                        
+Hit:4 http://in.archive.ubuntu.com/ubuntu disco-backports InRelease
+[33m
+                        
+0% [Working][0m[33m
+0% [Working][0m[33m
+20% [Working][0m
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+17 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo apt install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 17 not upgraded.
+Need to get 1,804 kB of archives.
+After this operation, 7,738 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libapr1 amd64 1.6.5-1 [91.6 kB]
+[33m
+0% [1 libapr1 2,614 B/91.6 kB 3%][0m[33m
+3% [1 libapr1 76.5 kB/91.6 kB 83%][0m[33m
+                                  
+6% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libaprutil1 amd64 1.6.1-3build1 [84.7 kB]
+[33m
+6% [2 libaprutil1 1,166 B/84.7 kB 1%][0m[33m
+                                     
+12% [Waiting for headers][0m
+                         
+Get:3 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-3build1 [10.6 kB]
+[33m
+13% [3 libaprutil1-dbd-sqlite3 10.6 kB/10.6 kB 100%][0m[33m
+                                                    
+15% [Waiting for headers][0m
+                         
+Get:4 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libaprutil1-ldap amd64 1.6.1-3build1 [8,692 B]
+[33m
+15% [4 libaprutil1-ldap 8,611 B/8,692 B 99%][0m[33m
+                                            
+18% [Waiting for headers][0m
+                         
+Get:5 http://in.archive.ubuntu.com/ubuntu disco/main amd64 liblua5.2-0 amd64 5.2.4-1.1build2 [106 kB]
+[33m
+18% [5 liblua5.2-0 13.6 kB/106 kB 13%][0m[33m
+                                      
+24% [Waiting for headers][0m
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu disco/main amd64 apache2-bin amd64 2.4.38-2ubuntu2 [1,157 kB]
+[33m
+26% [6 apache2-bin 24.7 kB/1,157 kB 2%][0m[33m
+31% [6 apache2-bin 147 kB/1,157 kB 13%][0m[33m
+43% [6 apache2-bin 420 kB/1,157 kB 36%][0m[33m
+59% [6 apache2-bin 772 kB/1,157 kB 67%][0m[33m
+                                       
+78% [Waiting for headers][0m
+                         
+Get:7 http://in.archive.ubuntu.com/ubuntu disco/main amd64 apache2-data all 2.4.38-2ubuntu2 [164 kB]
+[33m
+79% [7 apache2-data 33.3 kB/164 kB 20%][0m[33m
+79% [7 apache2-data 33.3 kB/164 kB 20%][0m[33m
+                                       
+88% [Waiting for headers][0m
+                         
+Get:8 http://in.archive.ubuntu.com/ubuntu disco/main amd64 apache2-utils amd64 2.4.38-2ubuntu2 [86.1 kB]
+[33m
+88% [8 apache2-utils 14.1 kB/86.1 kB 16%][0m[33m
+                                         
+94% [Waiting for headers][0m
+                         
+Get:9 http://in.archive.ubuntu.com/ubuntu disco/main amd64 apache2 amd64 2.4.38-2ubuntu2 [95.5 kB]
+[33m
+94% [9 apache2 5,838 B/95.5 kB 6%][0m[33m
+                                  
+100% [Working][0m
+              
+Fetched 1,804 kB in 4s (443 kB/s)
+
+7[0;55r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 136561 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.5-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................] 87[56;0f[42m[30mProgress: [  3%][49m[39m [##.............................................................................] 8Unpacking libapr1:amd64 (1.6.5-1) ...
+7[56;0f[42m[30mProgress: [  5%][49m[39m [####...........................................................................] 8Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-3build1_amd64.deb ...
+7[56;0f[42m[30mProgress: [  8%][49m[39m [######.........................................................................] 8Unpacking libaprutil1:amd64 (1.6.1-3build1) ...
+7[56;0f[42m[30mProgress: [ 11%][49m[39m [########.......................................................................] 8Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-3build1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 14%][49m[39m [##########.....................................................................] 8Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-3build1) ...
+7[56;0f[42m[30mProgress: [ 16%][49m[39m [############...................................................................] 8Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-3build1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 19%][49m[39m [##############.................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.6.1-3build1) ...
+7[56;0f[42m[30mProgress: [ 22%][49m[39m [#################..............................................................] 8Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 24%][49m[39m [###################............................................................] 8Unpacking liblua5.2-0:amd64 (5.2.4-1.1build2) ...
+7[56;0f[42m[30mProgress: [ 27%][49m[39m [#####################..........................................................] 8Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.38-2ubuntu2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 30%][49m[39m [#######################........................................................] 8Unpacking apache2-bin (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 32%][49m[39m [#########################......................................................] 8Selecting previously unselected package apache2-data.
+Preparing to unpack .../6-apache2-data_2.4.38-2ubuntu2_all.deb ...
+7[56;0f[42m[30mProgress: [ 35%][49m[39m [###########################....................................................] 8Unpacking apache2-data (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 38%][49m[39m [#############################..................................................] 8Selecting previously unselected package apache2-utils.
+Preparing to unpack .../7-apache2-utils_2.4.38-2ubuntu2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 41%][49m[39m [################################...............................................] 8Unpacking apache2-utils (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 43%][49m[39m [##################################.............................................] 8Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.38-2ubuntu2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 46%][49m[39m [####################################...........................................] 8Unpacking apache2 (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 49%][49m[39m [######################################.........................................] 8Setting up libapr1:amd64 (1.6.5-1) ...
+7[56;0f[42m[30mProgress: [ 51%][49m[39m [########################################.......................................] 87[56;0f[42m[30mProgress: [ 54%][49m[39m [##########################################.....................................] 8Setting up liblua5.2-0:amd64 (5.2.4-1.1build2) ...
+7[56;0f[42m[30mProgress: [ 57%][49m[39m [############################################...................................] 87[56;0f[42m[30mProgress: [ 59%][49m[39m [##############################################.................................] 8Setting up apache2-data (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 62%][49m[39m [#################################################..............................] 87[56;0f[42m[30mProgress: [ 65%][49m[39m [###################################################............................] 8Setting up libaprutil1:amd64 (1.6.1-3build1) ...
+7[56;0f[42m[30mProgress: [ 68%][49m[39m [#####################################################..........................] 87[56;0f[42m[30mProgress: [ 70%][49m[39m [#######################################################........................] 8Setting up libaprutil1-ldap:amd64 (1.6.1-3build1) ...
+7[56;0f[42m[30mProgress: [ 73%][49m[39m [#########################################################......................] 87[56;0f[42m[30mProgress: [ 76%][49m[39m [###########################################################....................] 8Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-3build1) ...
+7[56;0f[42m[30mProgress: [ 78%][49m[39m [#############################################################..................] 87[56;0f[42m[30mProgress: [ 81%][49m[39m [################################################################...............] 8Setting up apache2-utils (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 84%][49m[39m [##################################################################.............] 87[56;0f[42m[30mProgress: [ 86%][49m[39m [####################################################################...........] 8Setting up apache2-bin (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 89%][49m[39m [######################################################################.........] 87[56;0f[42m[30mProgress: [ 92%][49m[39m [########################################################################.......] 8Setting up apache2 (2.4.38-2ubuntu2) ...
+7[56;0f[42m[30mProgress: [ 95%][49m[39m [##########################################################################.....] 8Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service ? /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service ? /lib/systemd/system/apache-htcacheclean.service.
+7[56;0f[42m[30mProgress: [ 97%][49m[39m [############################################################################...] 8Processing triggers for ufw (0.36-1ubuntu1) ...
+Processing triggers for systemd (240-6ubuntu5) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.29-0ubuntu2) ...
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ufw app info "Apache Full"
+Profile: Apache Full
+Title: Web Server (HTTP,HTTPS)
+Description: Apache v2 is the next generation of the omnipresent Apache web
+server.
+
+Ports:
+  80,443/tcp
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ufw allow in "Apache Full"
+Rules updated
+Rules updated (v6)
+
+//tested default Ubuntu 18.04 Apache web page by typing http://ip_adress and screenshot provided.
+//Apache webserver successfully installed.
+
+
+//Installing MySQL.
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo apt install mysql-server
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo apt install mysql-server
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 79%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libaio1 libevent-core-2.1-6 libhtml-template-perl libmecab2 mysql-client-5.7
+  mysql-client-core-5.7 mysql-server-5.7 mysql-server-core-5.7
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libevent-core-2.1-6 libhtml-template-perl libmecab2 mysql-client-5.7
+  mysql-client-core-5.7 mysql-server mysql-server-5.7 mysql-server-core-5.7
+0 upgraded, 9 newly installed, 0 to remove and 0 not upgraded.
+Need to get 20.8 MB of archives.
+After this operation, 161 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m[33m
+0% [Waiting for headers][0m
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libaio1 amd64 0.3.111-1 [7,224 B]
+[33m
+0% [1 libaio1 2,616 B/7,224 B 36%][0m[33m
+                                  
+2% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu disco/main amd64 mysql-client-core-5.7 amd64 5.7.25-1 [7,038 kB]
+[33m
+2% [2 mysql-client-core-5.7 2,611 B/7,038 kB 0%][0m[33m
+                                                
+3% [2 mysql-client-core-5.7 162 kB/7,038 kB 2%][0m[33m
+7% [2 mysql-client-core-5.7 1,171 kB/7,038 kB 17%][0m[33m
+11% [2 mysql-client-core-5.7 2,151 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,206 kB/7,038 kB 31%][0m[33m
+11% [2 mysql-client-core-5.7 2,340 kB/7,038 kB 33%]                                     372 kB/s 49s[0m[33m
+11% [2 mysql-client-core-5.7 2,353 kB/7,038 kB 33%]                                     372 kB/s 49s[0m[33m
+11% [2 mysql-client-core-5.7 2,353 kB/7,038 kB 33%]                                     372 kB/s 49s[0m[33m
+11% [2 mysql-client-core-5.7 2,353 kB/7,038 kB 33%]                                     372 kB/s 49s[0m[33m
+11% [2 mysql-client-core-5.7 2,353 kB/7,038 kB 33%]                                     372 kB/s 49s[0m[33m
+11% [2 mysql-client-core-5.7 2,353 kB/7,038 kB 33%]                                     372 kB/s 49s[0m[33m
+20% [2 mysql-client-core-5.7 4,671 kB/7,038 kB 66%]                                     372 kB/s 43s[0m[33m
+21% [2 mysql-client-core-5.7 4,824 kB/7,038 kB 69%]                                     372 kB/s 43s[0m[33m
+21% [2 mysql-client-core-5.7 4,968 kB/7,038 kB 71%]                                     372 kB/s 42s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     372 kB/s 42s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     372 kB/s 42s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     372 kB/s 42s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     441 kB/s 35s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     441 kB/s 35s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     441 kB/s 35s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     441 kB/s 35s[0m[33m
+21% [2 mysql-client-core-5.7 4,990 kB/7,038 kB 71%]                                     441 kB/s 35s[0m[33m
+22% [2 mysql-client-core-5.7 5,117 kB/7,038 kB 73%]                                     441 kB/s 35s[0m[33m
+26% [2 mysql-client-core-5.7 6,187 kB/7,038 kB 88%]                                     441 kB/s 33s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                     441 kB/s 32s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                     441 kB/s 32s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                     441 kB/s 32s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                     441 kB/s 32s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                     441 kB/s 32s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                 219 kB/s 1min 6s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                 219 kB/s 1min 6s[0m[33m
+26% [2 mysql-client-core-5.7 6,306 kB/7,038 kB 90%]                                 219 kB/s 1min 6s[0m[33m
+28% [2 mysql-client-core-5.7 6,624 kB/7,038 kB 94%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,624 kB/7,038 kB 94%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,624 kB/7,038 kB 94%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,624 kB/7,038 kB 94%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,724 kB/7,038 kB 96%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,785 kB/7,038 kB 96%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,785 kB/7,038 kB 96%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,785 kB/7,038 kB 96%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,785 kB/7,038 kB 96%]                                 219 kB/s 1min 4s[0m[33m
+28% [2 mysql-client-core-5.7 6,785 kB/7,038 kB 96%]                               79.7 kB/s 2min 56s[0m[33m
+28% [2 mysql-client-core-5.7 6,785 kB/7,038 kB 96%]                               79.7 kB/s 2min 56s[0m[33m
+29% [2 mysql-client-core-5.7 6,939 kB/7,038 kB 99%]                               79.7 kB/s 2min 54s[0m[33m
+29% [2 mysql-client-core-5.7 6,939 kB/7,038 kB 99%]                               79.7 kB/s 2min 54s[0m[33m
+31% [Waiting for headers]                                                         79.7 kB/s 2min 53s[0m
+                                                                                                    
+Get:3 http://in.archive.ubuntu.com/ubuntu disco/main amd64 mysql-client-5.7 amd64 5.7.25-1 [2,308 kB]
+[33m
+32% [3 mysql-client-5.7 31.5 kB/2,308 kB 1%]                                      79.7 kB/s 2min 52s[0m[33m
+35% [3 mysql-client-5.7 948 kB/2,308 kB 41%]                                      79.7 kB/s 2min 41s[0m[33m
+36% [3 mysql-client-5.7 1,154 kB/2,308 kB 50%]                                    79.7 kB/s 2min 38s[0m[33m
+36% [3 mysql-client-5.7 1,154 kB/2,308 kB 50%]                                    79.7 kB/s 2min 38s[0m[33m
+36% [3 mysql-client-5.7 1,206 kB/2,308 kB 52%]                                    79.7 kB/s 2min 37s[0m[33m
+36% [3 mysql-client-5.7 1,258 kB/2,308 kB 55%]                                    79.7 kB/s 2min 37s[0m[33m
+36% [3 mysql-client-5.7 1,258 kB/2,308 kB 55%]                                    79.7 kB/s 2min 37s[0m[33m
+37% [3 mysql-client-5.7 1,324 kB/2,308 kB 57%]                                    79.7 kB/s 2min 36s[0m[33m
+39% [3 mysql-client-5.7 2,043 kB/2,308 kB 89%]                                    79.7 kB/s 2min 27s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+40% [3 mysql-client-5.7 2,152 kB/2,308 kB 93%]                                          387 kB/s 30s[0m[33m
+43% [Waiting for headers]                                                               387 kB/s 29s[0m
+                                                                                                    
+Get:4 http://in.archive.ubuntu.com/ubuntu disco/main amd64 mysql-server-core-5.7 amd64 5.7.25-1 [7,833 kB]
+[33m
+43% [4 mysql-server-core-5.7 17.4 kB/7,833 kB 0%]                                       387 kB/s 29s[0m[33m
+44% [4 mysql-server-core-5.7 274 kB/7,833 kB 3%]                                        387 kB/s 28s[0m[33m
+44% [4 mysql-server-core-5.7 274 kB/7,833 kB 3%]                                        387 kB/s 28s[0m[33m
+45% [4 mysql-server-core-5.7 607 kB/7,833 kB 8%]                                        387 kB/s 28s[0m[33m
+45% [4 mysql-server-core-5.7 607 kB/7,833 kB 8%]                                        387 kB/s 28s[0m[33m
+45% [4 mysql-server-core-5.7 607 kB/7,833 kB 8%]                                        387 kB/s 28s[0m[33m
+45% [4 mysql-server-core-5.7 607 kB/7,833 kB 8%]                                   123 kB/s 1min 28s[0m[33m
+45% [4 mysql-server-core-5.7 679 kB/7,833 kB 9%]                                   123 kB/s 1min 27s[0m[33m
+48% [4 mysql-server-core-5.7 1,395 kB/7,833 kB 18%]                                123 kB/s 1min 22s[0m[33m
+48% [4 mysql-server-core-5.7 1,421 kB/7,833 kB 18%]                                123 kB/s 1min 21s[0m[33m
+49% [4 mysql-server-core-5.7 1,552 kB/7,833 kB 20%]                                123 kB/s 1min 20s[0m[33m
+49% [4 mysql-server-core-5.7 1,677 kB/7,833 kB 21%]                                123 kB/s 1min 19s[0m[33m
+49% [4 mysql-server-core-5.7 1,677 kB/7,833 kB 21%]                                123 kB/s 1min 19s[0m[33m
+49% [4 mysql-server-core-5.7 1,761 kB/7,833 kB 22%]                                123 kB/s 1min 19s[0m[33m
+50% [4 mysql-server-core-5.7 1,897 kB/7,833 kB 24%]                                123 kB/s 1min 18s[0m[33m
+50% [4 mysql-server-core-5.7 1,910 kB/7,833 kB 24%]                                123 kB/s 1min 17s[0m[33m
+50% [4 mysql-server-core-5.7 2,004 kB/7,833 kB 26%]                                123 kB/s 1min 17s[0m[33m
+51% [4 mysql-server-core-5.7 2,182 kB/7,833 kB 28%]                                123 kB/s 1min 15s[0m[33m
+51% [4 mysql-server-core-5.7 2,216 kB/7,833 kB 28%]                                     268 kB/s 34s[0m[33m
+51% [4 mysql-server-core-5.7 2,216 kB/7,833 kB 28%]                                     268 kB/s 34s[0m[33m
+51% [4 mysql-server-core-5.7 2,216 kB/7,833 kB 28%]                                     268 kB/s 34s[0m[33m
+52% [4 mysql-server-core-5.7 2,483 kB/7,833 kB 32%]                                     268 kB/s 33s[0m[33m
+53% [4 mysql-server-core-5.7 2,596 kB/7,833 kB 33%]                                     268 kB/s 33s[0m[33m
+53% [4 mysql-server-core-5.7 2,602 kB/7,833 kB 33%]                                     268 kB/s 33s[0m[33m
+53% [4 mysql-server-core-5.7 2,718 kB/7,833 kB 35%]                                     268 kB/s 32s[0m[33m
+54% [4 mysql-server-core-5.7 2,935 kB/7,833 kB 37%]                                     268 kB/s 31s[0m[33m
+54% [4 mysql-server-core-5.7 2,964 kB/7,833 kB 38%]                                     268 kB/s 31s[0m[33m
+54% [4 mysql-server-core-5.7 2,986 kB/7,833 kB 38%]                                     268 kB/s 31s[0m[33m
+55% [4 mysql-server-core-5.7 3,231 kB/7,833 kB 41%]                                     268 kB/s 30s[0m[33m
+56% [4 mysql-server-core-5.7 3,396 kB/7,833 kB 43%]                                     268 kB/s 30s[0m[33m
+56% [4 mysql-server-core-5.7 3,433 kB/7,833 kB 44%]                                     203 kB/s 39s[0m[33m
+56% [4 mysql-server-core-5.7 3,433 kB/7,833 kB 44%]                                     203 kB/s 39s[0m[33m
+57% [4 mysql-server-core-5.7 3,658 kB/7,833 kB 47%]                                     203 kB/s 38s[0m[33m
+57% [4 mysql-server-core-5.7 3,818 kB/7,833 kB 49%]                                     203 kB/s 37s[0m[33m
+57% [4 mysql-server-core-5.7 3,846 kB/7,833 kB 49%]                                     203 kB/s 37s[0m[33m
+58% [4 mysql-server-core-5.7 3,962 kB/7,833 kB 51%]                                     203 kB/s 37s[0m[33m
+58% [4 mysql-server-core-5.7 4,086 kB/7,833 kB 52%]                                     203 kB/s 36s[0m[33m
+59% [4 mysql-server-core-5.7 4,389 kB/7,833 kB 56%]                                     203 kB/s 35s[0m[33m
+61% [4 mysql-server-core-5.7 4,820 kB/7,833 kB 62%]                                     203 kB/s 32s[0m[33m
+63% [4 mysql-server-core-5.7 5,288 kB/7,833 kB 68%]                                     203 kB/s 30s[0m[33m
+65% [4 mysql-server-core-5.7 5,828 kB/7,833 kB 74%]                                     203 kB/s 27s[0m[33m
+67% [4 mysql-server-core-5.7 6,464 kB/7,833 kB 83%]                                     203 kB/s 24s[0m[33m
+70% [4 mysql-server-core-5.7 7,169 kB/7,833 kB 92%]                                      621 kB/s 6s[0m[33m
+75% [Working]                                                                            621 kB/s 5s[0m
+                                                                                                    
+Get:5 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libevent-core-2.1-6 amd64 2.1.8-stable-4build1 [85.9 kB]
+[33m
+75% [5 libevent-core-2.1-6 8,871 B/85.9 kB 10%]                                          621 kB/s 5s[0m[33m
+77% [Working]                                                                            621 kB/s 5s[0m
+                                                                                                    
+Get:6 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libmecab2 amd64 0.996-6 [257 kB]
+[33m
+77% [6 libmecab2 5,240 B/257 kB 2%]                                                      621 kB/s 5s[0m[33m
+81% [Working]                                                                            621 kB/s 5s[0m
+                                                                                                    
+Get:7 http://in.archive.ubuntu.com/ubuntu disco/main amd64 mysql-server-5.7 amd64 5.7.25-1 [3,243 kB]
+[33m
+81% [7 mysql-server-5.7 1,311 B/3,243 kB 0%]                                             621 kB/s 5s[0m[33m
+84% [7 mysql-server-5.7 924 kB/3,243 kB 28%]                                             621 kB/s 3s[0m[33m
+89% [7 mysql-server-5.7 2,073 kB/3,243 kB 64%]                                           621 kB/s 1s[0m[33m
+95% [Waiting for headers]                                                                621 kB/s 0s[0m
+                                                                                                    
+Get:8 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libhtml-template-perl all 2.97-1 [59.0 kB]
+[33m
+95% [8 libhtml-template-perl 4,690 B/59.0 kB 8%]                                         621 kB/s 0s[0m[33m
+98% [Waiting for headers]                                                                621 kB/s 0s[0m
+                                                                                                    
+Get:9 http://in.archive.ubuntu.com/ubuntu disco/main amd64 mysql-server all 5.7.25-1 [9,952 B]
+[33m
+98% [9 mysql-server 4,786 B/9,952 B 48%]                                                 621 kB/s 0s[0m[33m
+100% [Working]                                                                           621 kB/s 0s[0m
+                                                                                                    
+Fetched 20.8 MB in 57s (367 kB/s)
+Preconfiguring packages ...
+
+7[0;55r8[1ASelecting previously unselected package libaio1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 137319 files and directories currently installed.)
+Preparing to unpack .../0-libaio1_0.3.111-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................] 87[56;0f[42m[30mProgress: [  3%][49m[39m [##.............................................................................] 8Unpacking libaio1:amd64 (0.3.111-1) ...
+7[56;0f[42m[30mProgress: [  5%][49m[39m [####...........................................................................] 8Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../1-mysql-client-core-5.7_5.7.25-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [  8%][49m[39m [######.........................................................................] 8Unpacking mysql-client-core-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 11%][49m[39m [########.......................................................................] 8Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../2-mysql-client-5.7_5.7.25-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 14%][49m[39m [##########.....................................................................] 8Unpacking mysql-client-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 16%][49m[39m [############...................................................................] 8Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../3-mysql-server-core-5.7_5.7.25-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 19%][49m[39m [##############.................................................................] 8Unpacking mysql-server-core-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 22%][49m[39m [#################..............................................................] 8Selecting previously unselected package libevent-core-2.1-6:amd64.
+Preparing to unpack .../4-libevent-core-2.1-6_2.1.8-stable-4build1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 24%][49m[39m [###################............................................................] 8Unpacking libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+7[56;0f[42m[30mProgress: [ 27%][49m[39m [#####################..........................................................] 8Selecting previously unselected package libmecab2:amd64.
+Preparing to unpack .../5-libmecab2_0.996-6_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 30%][49m[39m [#######################........................................................] 8Unpacking libmecab2:amd64 (0.996-6) ...
+7[56;0f[42m[30mProgress: [ 32%][49m[39m [#########################......................................................] 8Selecting previously unselected package mysql-server-5.7.
+Preparing to unpack .../6-mysql-server-5.7_5.7.25-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 35%][49m[39m [###########################....................................................] 8Unpacking mysql-server-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 38%][49m[39m [#############################..................................................] 8Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../7-libhtml-template-perl_2.97-1_all.deb ...
+7[56;0f[42m[30mProgress: [ 41%][49m[39m [################################...............................................] 8Unpacking libhtml-template-perl (2.97-1) ...
+7[56;0f[42m[30mProgress: [ 43%][49m[39m [##################################.............................................] 8Selecting previously unselected package mysql-server.
+Preparing to unpack .../8-mysql-server_5.7.25-1_all.deb ...
+7[56;0f[42m[30mProgress: [ 46%][49m[39m [####################################...........................................] 8Unpacking mysql-server (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 49%][49m[39m [######################################.........................................] 8Setting up libmecab2:amd64 (0.996-6) ...
+7[56;0f[42m[30mProgress: [ 51%][49m[39m [########################################.......................................] 87[56;0f[42m[30mProgress: [ 54%][49m[39m [##########################################.....................................] 8Setting up libhtml-template-perl (2.97-1) ...
+7[56;0f[42m[30mProgress: [ 57%][49m[39m [############################################...................................] 87[56;0f[42m[30mProgress: [ 59%][49m[39m [##############################################.................................] 8Setting up libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+7[56;0f[42m[30mProgress: [ 62%][49m[39m [#################################################..............................] 87[56;0f[42m[30mProgress: [ 65%][49m[39m [###################################################............................] 8Setting up libaio1:amd64 (0.3.111-1) ...
+7[56;0f[42m[30mProgress: [ 68%][49m[39m [#####################################################..........................] 87[56;0f[42m[30mProgress: [ 70%][49m[39m [#######################################################........................] 8Setting up mysql-server-core-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 73%][49m[39m [#########################################################......................] 87[56;0f[42m[30mProgress: [ 76%][49m[39m [###########################################################....................] 8Setting up mysql-client-core-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 78%][49m[39m [#############################################################..................] 87[56;0f[42m[30mProgress: [ 81%][49m[39m [################################################################...............] 8Setting up mysql-client-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 84%][49m[39m [##################################################################.............] 87[56;0f[42m[30mProgress: [ 86%][49m[39m [####################################################################...........] 8Setting up mysql-server-5.7 (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 89%][49m[39m [######################################################################.........] 8update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service ? /lib/systemd/system/mysql.service.
+7[56;0f[42m[30mProgress: [ 92%][49m[39m [########################################################################.......] 8Setting up mysql-server (5.7.25-1) ...
+7[56;0f[42m[30mProgress: [ 95%][49m[39m [##########################################################################.....] 87[56;0f[42m[30mProgress: [ 97%][49m[39m [############################################################################...] 8Processing triggers for systemd (240-6ubuntu5) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.29-0ubuntu2) ...
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+
+VALIDATE PASSWORD PLUGIN can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+
+Press y|Y for Yes, any other key for No: y
+
+There are three levels of password validation policy:
+
+LOW    Length >= 8
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary                  file
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
+Please set the password for root here.
+
+New password: 
+
+Re-enter new password: 
+
+Estimated strength of the password: 50 
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+
+Normally, root should only be allowed to connect from
+'localhost'. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+By default, MySQL comes with a database named 'test' that
+anyone can access. This is also intended only for testing,
+and should be removed before moving into a production
+environment.
+
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+
+Reloading the privilege tables will ensure that all changes
+made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+All done! 
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 4
+Server version: 5.7.25-1 (Ubuntu)
+
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
++------------------+-------------------------------------------+-----------------------+-----------+
+| user             | authentication_string                     | plugin                | host      |
++------------------+-------------------------------------------+-----------------------+-----------+
+| root             |                                           | auth_socket           | localhost |
+| mysql.session    | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | mysql_native_password | localhost |
+| mysql.sys        | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | mysql_native_password | localhost |
+| debian-sys-maint | *0EE130CAD4674787EF2711164F6D54615CA0D489 | mysql_native_password | localhost |
++------------------+-------------------------------------------+-----------------------+-----------+
+4 rows in set (0.00 sec)
+
+
+
+mysql> SET GLOBAL validate_password_policy=LOW;
+Query OK, 0 rows affected (0.00 sec)
+
+
+mysql> 
+[8GSELECT user,authentication_string,plugin,host FROM mysql.user;
+[70G
+[8G[KALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'redmi@note4';
+Query OK, 0 rows affected (0.00 sec)
+
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.00 sec)
+
+
+mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
++------------------+-------------------------------------------+-----------------------+-----------+
+| user             | authentication_string                     | plugin                | host      |
++------------------+-------------------------------------------+-----------------------+-----------+
+| root             | *D15A141456A71D2E1D0BB4E09B35DAF5F60D6B40 | mysql_native_password | localhost |
+| mysql.session    | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | mysql_native_password | localhost |
+| mysql.sys        | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | mysql_native_password | localhost |
+| debian-sys-maint | *0EE130CAD4674787EF2711164F6D54615CA0D489 | mysql_native_password | localhost |
++------------------+-------------------------------------------+-----------------------+-----------+
+4 rows in set (0.00 sec)
+
+
+mysql> exit
+Bye
+
+//MySQL-sever and database installed and configured successfully.
+
+
+
+
+//Installing php
+ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo apt install php libapache2-mod-php php-mysql
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libapache2-mod-php7.2 php-common php7.2 php7.2-cli php7.2-common php7.2-json php7.2-mysql
+  php7.2-opcache php7.2-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.2 php php-common php-mysql php7.2 php7.2-cli php7.2-common
+  php7.2-json php7.2-mysql php7.2-opcache php7.2-readline
+0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4,068 kB of archives.
+After this operation, 18.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu disco/main amd64 php-common all 2:69ubuntu1 [11.8 kB]
+[33m
+0% [1 php-common 2,615 B/11.8 kB 22%][0m[33m
+                                     
+2% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2-common amd64 7.2.17-0ubuntu0.19.04.1 [889 kB]
+[33m
+2% [2 php7.2-common 1,165 B/889 kB 0%][0m[33m
+5% [2 php7.2-common 137 kB/889 kB 15%][0m[33m
+                                      
+21% [Waiting for headers][0m
+                         
+Get:3 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2-json amd64 7.2.17-0ubuntu0.19.04.1 [19.0 kB]
+[33m
+21% [3 php7.2-json 8,108 B/19.0 kB 43%][0m[33m
+                                       
+23% [Waiting for headers][0m
+                         
+Get:4 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2-opcache amd64 7.2.17-0ubuntu0.19.04.1 [166 kB]
+[33m
+23% [4 php7.2-opcache 1,881 B/166 kB 1%][0m[33m
+                                        
+28% [Waiting for headers][0m
+                         
+Get:5 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2-readline amd64 7.2.17-0ubuntu0.19.04.1 [12.3 kB]
+[33m
+28% [5 php7.2-readline 1,840 B/12.3 kB 15%][0m[33m
+                                           
+30% [Waiting for headers][0m
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2-cli amd64 7.2.17-0ubuntu0.19.04.1 [1,444 kB]
+[33m
+30% [6 php7.2-cli 14.0 kB/1,444 kB 1%][0m[33m
+31% [6 php7.2-cli 48.6 kB/1,444 kB 3%][0m[33m
+38% [6 php7.2-cli 390 kB/1,444 kB 27%][0m[33m
+38% [6 php7.2-cli 396 kB/1,444 kB 27%][0m[33m
+38% [6 php7.2-cli 396 kB/1,444 kB 27%][0m[33m
+38% [6 php7.2-cli 396 kB/1,444 kB 27%][0m[33m
+38% [6 php7.2-cli 396 kB/1,444 kB 27%][0m[33m
+38% [6 php7.2-cli 396 kB/1,444 kB 27%][0m[33m
+38% [6 php7.2-cli 396 kB/1,444 kB 27%][0m[33m
+39% [6 php7.2-cli 466 kB/1,444 kB 32%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 545 kB/1,444 kB 38%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 558 kB/1,444 kB 39%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 574 kB/1,444 kB 40%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 586 kB/1,444 kB 41%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 586 kB/1,444 kB 41%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 586 kB/1,444 kB 41%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 586 kB/1,444 kB 41%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 586 kB/1,444 kB 41%]                                                   253 kB/s 9s[0m[33m
+41% [6 php7.2-cli 586 kB/1,444 kB 41%]                                                   253 kB/s 9s[0m[33m
+60% [Waiting for headers]                                                                253 kB/s 6s[0m
+                                                                                                    
+Get:7 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 libapache2-mod-php7.2 amd64 7.2.17-0ubuntu0.19.04.1 [1,389 kB]
+[33m
+60% [7 libapache2-mod-php7.2 11.3 kB/1,389 kB 1%]                                        253 kB/s 5s[0m[33m
+79% [7 libapache2-mod-php7.2 944 kB/1,389 kB 68%]                                        253 kB/s 2s[0m[33m
+83% [7 libapache2-mod-php7.2 1,148 kB/1,389 kB 83%]                                      253 kB/s 1s[0m[33m
+83% [7 libapache2-mod-php7.2 1,148 kB/1,389 kB 83%]                                      333 kB/s 1s[0m[33m
+83% [7 libapache2-mod-php7.2 1,148 kB/1,389 kB 83%]                                      333 kB/s 1s[0m[33m
+83% [7 libapache2-mod-php7.2 1,148 kB/1,389 kB 83%]                                      333 kB/s 1s[0m[33m
+89% [Waiting for headers]                                                                333 kB/s 0s[0m
+                                                                                                    
+Get:8 http://in.archive.ubuntu.com/ubuntu disco/main amd64 libapache2-mod-php all 2:7.2+69ubuntu1 [2,912 B]
+[33m
+89% [8 libapache2-mod-php 2,912 B/2,912 B 100%]                                          333 kB/s 0s[0m[33m
+91% [Working]                                                                            333 kB/s 0s[0m
+                                                                                                    
+Get:9 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2 all 7.2.17-0ubuntu0.19.04.1 [9,240 B]
+[33m
+91% [9 php7.2 9,240 B/9,240 B 100%]                                                      333 kB/s 0s[0m[33m
+93% [Waiting for headers]                                                                333 kB/s 0s[0m
+                                                                                                    
+Get:10 http://in.archive.ubuntu.com/ubuntu disco/main amd64 php all 2:7.2+69ubuntu1 [2,780 B]
+[33m
+93% [10 php 2,780 B/2,780 B 100%]                                                        333 kB/s 0s[0m[33m
+94% [Waiting for headers]                                                                333 kB/s 0s[0m
+                                                                                                    
+Get:11 http://in.archive.ubuntu.com/ubuntu disco-updates/main amd64 php7.2-mysql amd64 7.2.17-0ubuntu0.19.04.1 [119 kB]
+[33m
+95% [11 php7.2-mysql 48.4 kB/119 kB 41%]                                                 333 kB/s 0s[0m[33m
+98% [Waiting for headers]                                                                333 kB/s 0s[0m
+                                                                                                    
+Get:12 http://in.archive.ubuntu.com/ubuntu disco/main amd64 php-mysql all 2:7.2+69ubuntu1 [2,008 B]
+[33m
+100% [Working]                                                                           333 kB/s 0s[0m
+                                                                                                    
+Fetched 4,068 kB in 14s (289 kB/s)
+
+7[0;55r8[1ASelecting previously unselected package php-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 137580 files and directories currently installed.)
+Preparing to unpack .../00-php-common_2%3a69ubuntu1_all.deb ...
+7[56;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................] 87[56;0f[42m[30mProgress: [  2%][49m[39m [#..............................................................................] 8Unpacking php-common (2:69ubuntu1) ...
+7[56;0f[42m[30mProgress: [  4%][49m[39m [###............................................................................] 8Selecting previously unselected package php7.2-common.
+Preparing to unpack .../01-php7.2-common_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [  6%][49m[39m [####...........................................................................] 8Unpacking php7.2-common (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [  8%][49m[39m [######.........................................................................] 8Selecting previously unselected package php7.2-json.
+Preparing to unpack .../02-php7.2-json_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 10%][49m[39m [########.......................................................................] 8Unpacking php7.2-json (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 12%][49m[39m [#########......................................................................] 8Selecting previously unselected package php7.2-opcache.
+Preparing to unpack .../03-php7.2-opcache_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 14%][49m[39m [###########....................................................................] 8Unpacking php7.2-opcache (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 16%][49m[39m [############...................................................................] 8Selecting previously unselected package php7.2-readline.
+Preparing to unpack .../04-php7.2-readline_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 18%][49m[39m [##############.................................................................] 8Unpacking php7.2-readline (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 20%][49m[39m [################...............................................................] 8Selecting previously unselected package php7.2-cli.
+Preparing to unpack .../05-php7.2-cli_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 22%][49m[39m [#################..............................................................] 8Unpacking php7.2-cli (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 24%][49m[39m [###################............................................................] 8Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../06-libapache2-mod-php7.2_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 27%][49m[39m [####################...........................................................] 8Unpacking libapache2-mod-php7.2 (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 29%][49m[39m [######################.........................................................] 8Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../07-libapache2-mod-php_2%3a7.2+69ubuntu1_all.deb ...
+7[56;0f[42m[30mProgress: [ 31%][49m[39m [########################.......................................................] 8Unpacking libapache2-mod-php (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 33%][49m[39m [#########################......................................................] 8Selecting previously unselected package php7.2.
+Preparing to unpack .../08-php7.2_7.2.17-0ubuntu0.19.04.1_all.deb ...
+7[56;0f[42m[30mProgress: [ 35%][49m[39m [###########################....................................................] 8Unpacking php7.2 (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 37%][49m[39m [#############################..................................................] 8Selecting previously unselected package php.
+Preparing to unpack .../09-php_2%3a7.2+69ubuntu1_all.deb ...
+7[56;0f[42m[30mProgress: [ 39%][49m[39m [##############################.................................................] 8Unpacking php (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 41%][49m[39m [################################...............................................] 8Selecting previously unselected package php7.2-mysql.
+Preparing to unpack .../10-php7.2-mysql_7.2.17-0ubuntu0.19.04.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 43%][49m[39m [#################################..............................................] 8Unpacking php7.2-mysql (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 45%][49m[39m [###################################............................................] 8Selecting previously unselected package php-mysql.
+Preparing to unpack .../11-php-mysql_2%3a7.2+69ubuntu1_all.deb ...
+7[56;0f[42m[30mProgress: [ 47%][49m[39m [#####################################..........................................] 8Unpacking php-mysql (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 49%][49m[39m [######################################.........................................] 8Setting up php-common (2:69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 51%][49m[39m [########################################.......................................] 8Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer ? /lib/systemd/system/phpsessionclean.timer.
+7[56;0f[42m[30mProgress: [ 53%][49m[39m [#########################################......................................] 8Setting up php7.2-common (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 55%][49m[39m [###########################################....................................] 8
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+7[56;0f[42m[30mProgress: [ 57%][49m[39m [#############################################..................................] 8Setting up php7.2-opcache (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 59%][49m[39m [##############################################.................................] 8
+Creating config file /etc/php/7.2/mods-available/opcache.ini with new version
+7[56;0f[42m[30mProgress: [ 61%][49m[39m [################################################...............................] 8Setting up php7.2-json (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 63%][49m[39m [#################################################..............................] 8
+Creating config file /etc/php/7.2/mods-available/json.ini with new version
+7[56;0f[42m[30mProgress: [ 65%][49m[39m [###################################################............................] 8Setting up php7.2-mysql (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 67%][49m[39m [#####################################################..........................] 8
+Creating config file /etc/php/7.2/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo_mysql.ini with new version
+7[56;0f[42m[30mProgress: [ 69%][49m[39m [######################################################.........................] 8Setting up php7.2-readline (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 71%][49m[39m [########################################################.......................] 8
+Creating config file /etc/php/7.2/mods-available/readline.ini with new version
+7[56;0f[42m[30mProgress: [ 73%][49m[39m [##########################################################.....................] 8Setting up php7.2-cli (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 76%][49m[39m [###########################################################....................] 8update-alternatives: using /usr/bin/php7.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.2/cli/php.ini with new version
+7[56;0f[42m[30mProgress: [ 78%][49m[39m [#############################################################..................] 8Setting up php-mysql (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 80%][49m[39m [##############################################################.................] 87[56;0f[42m[30mProgress: [ 82%][49m[39m [################################################################...............] 8Setting up libapache2-mod-php7.2 (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 84%][49m[39m [##################################################################.............] 8
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.2
+7[56;0f[42m[30mProgress: [ 86%][49m[39m [###################################################################............] 8Setting up libapache2-mod-php (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 88%][49m[39m [#####################################################################..........] 87[56;0f[42m[30mProgress: [ 90%][49m[39m [######################################################################.........] 8Setting up php7.2 (7.2.17-0ubuntu0.19.04.1) ...
+7[56;0f[42m[30mProgress: [ 92%][49m[39m [########################################################################.......] 87[56;0f[42m[30mProgress: [ 94%][49m[39m [##########################################################################.....] 8Setting up php (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 96%][49m[39m [###########################################################################....] 87[56;0f[42m[30mProgress: [ 98%][49m[39m [#############################################################################..] 8Processing triggers for man-db (2.8.5-2) ...
+
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo gedit /etc/apache2/mods-enabled/dir.confapt install php libapache2-mod-php php-mysql[4Pgedit /etc/apache2/mods-enabled/dir.conf[1P /etc/apache2/mods-enabled/dir.conf[1P /etc/apache2/mods-enabled/dir.conf[1P /etc/apache2/mods-enabled/dir.conf[1P /etc/apache2/mods-enabled/dir.conf[1P /etc/apache2/mods-enabled/dir.confn /etc/apache2/mods-enabled/dir.confa /etc/apache2/mods-enabled/dir.confn /etc/apache2/mods-enabled/dir.confo /etc/apache2/mods-enabled/dir.conf
+[?1049h[22;0;0t[1;56r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[54;43H(B[0;7m[ Reading File ](B[m[54;49H(B[0;7m 5 lines ](B[m[H(B[0;7m  GNU nano 3.2                     /etc/apache2/mods-enabled/dir.conf                                [1;100H(B[m
+[55d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[56d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[54d[3d[39;49m(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+[5d</IfModule>
+[7d[36m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[3d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[4d[?12l[?25h[?25l[4;9H[?12l[?25h[?25lD[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25lI[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25l
+[54d[K[4;32H[?12l[?25h[?25lm[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l[1;92H(B[0;7mModified(B[m[4;62H[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[30Gphpindex.html index.cgi[60Gpl index.xhtml index.htm[4;33H[?12l[?25h[?25l index.html index.cgi index.pl index.xhtml index.htm[4;34H[?12l[?25h[?25l
+[54d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                        [55;1H Y(B[m Yes[K
+[56d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[54;63H[?12l[?25h[?25l
+[55d(B[0;7m^G(B[m Get Help[55;26H(B[0;7mM-D(B[m DOS Format[55;51H(B[0;7mM-A(B[m Append[55;76H(B[0;7mM-B(B[m Backup File
+[56d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[56;51H(B[0;7mM-P(B[m Prepend[56;76H(B[0;7m^T(B[m To Files
+[54d(B[0;7mFile Name to Write: /etc/apache2/mods-enabled/dir.conf       
+(B[m[54;55H[?12l[?25h[?25l
+[K[1;100H[1;92H(B[0;7m        (B[m[54;43H(B[0;7m[ Wrote 5 lines ](B[m
+[J[56;101H[?12l[?25h[56;1H[?1049l[23;0;0t
+
+
+
+[?1l>]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo systemctl restart apache2
+
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo systemctl status apache2
+[?1h=
+[0;1;32m?[0m apache2.service - The Apache HTTP Server[m
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)[m
+   Active: [0;1;32mactive (running)[0m since Sat 2019-04-27 11:41:56 IST; 8s ago[m
+     Docs: https://httpd.apache.org/docs/2.4/[m
+  Process: 16328 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)[m
+ Main PID: 16344 (apache2)[m
+    Tasks: 6 (limit: 4915)[m
+   Memory: 9.8M[m
+   CGroup: /system.slice/apache2.service[m
+           +-16344 /usr/sbin/apache2 -k start[m
+           +-16345 /usr/sbin/apache2 -k start[m
+           +-16346 /usr/sbin/apache2 -k start[m
+           +-16347 /usr/sbin/apache2 -k start[m
+           +-16348 /usr/sbin/apache2 -k start[m
+           +-16349 /usr/sbin/apache2 -k start[m
+[m
+Apr 27 11:41:56 sayoojkoroth-X542UQR systemd[1]: Starting The Apache HTTP Server...[m
+Apr 27 11:41:56 sayoojkoroth-X542UQR apachectl[16328]: AH00558: apache2: Could not reliably determine[m
+Apr 27 11:41:56 sayoojkoroth-X542UQR systemd[1]: Started The Apache HTTP Server.[m
+[7mlines 1-19/19 (END)[27m[K
+[K[?1l>]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ apt search php- | less
+[?1049h[22;0;0t[?1h=
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Sorting...
+Full Text Search...
+bandwidthd-pgsql/disco 2.0.1+cvs20090917-10ubuntu1 amd64
+  Tracks usage of TCP/IP and builds html files with graphs
+
+bluefish/disco 2.2.10-1 amd64
+  advanced Gtk+ text editor for web and software development
+
+cacti/disco,disco 1.2.2+ds1-2 all
+  web interface for graphing of monitoring systems
+
+cakephp-scripts/disco,disco 2.10.11-2 all
+  rapid application development framework for PHP (scripts)
+
+elpa-php-mode/disco,disco 1.21.0-1 all
+  PHP Mode for GNU Emacs
+
+ganglia-webfrontend/disco,disco 3.6.1-3 all
+  cluster monitoring toolkit - web front-end
+
+golang-github-unknwon-cae-dev/disco,disco 0.0~git20160715.0.c6aac99-4 all
+  PHP-like Compression and Archive Extensions in Go
+
+haserl/disco 0.9.35-2 amd64
+  CGI scripting program for embedded environments
+
+kdevelop-php-l10n/disco,disco 5.3.2-0ubuntu1 all
+  localization files for KDevelop PHP plugin
+
+libcode-tidyall-perl/disco,disco 0.67-3 all
+  your all-in-one code tidier and validator
+
+libnet-libidn-perl/disco,now 0.12.ds-3build1 amd64 [installed,automatic]
+  Perl bindings for GNU Libidn
+
+libphp-adodb/disco,disco 5.20.14-1 all
+  ADOdb is a PHP database abstraction layer library
+
+libphp-embed/disco,disco 2:7.2+69ubuntu1 all
+  HTML-embedded scripting language (Embedded SAPI library) (default)
+
+libphp-jabber/disco,disco 0.4.3-5 all
+  Object-oriented PHP interface for the Jabber/XMPP protocol
+
+libphp-jpgraph/disco,disco 1.5.2-13 all
+  Object oriented graph library for php
+
+libphp-jpgraph-examples/disco,disco 1.5.2-13 all
+  Object oriented graph library for php (examples)
+
+libphp-magpierss/disco,disco 0.72-11 all
+  provides an XML-based RSS parser in PHP
+
+libphp-phpmailer/disco,disco 6.0.6-0.1 all
+  full featured email transfer class for PHP
+:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-predis/disco 0.8.3-1ubuntu1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  Flexible and feature-complete PHP client library for the Redis key-value store
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-serialization-perl/disco,disco 0.34-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Perl module to manipulate serialized PHP data structures
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-simplepie/disco,disco 1.3.1+dfsg-3.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  RSS and Atom feed parsing in PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-snoopy/disco,disco 2.0.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Snoopy is a PHP class that simulates a web browser
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-swiftmailer/disco,disco 5.4.2-1.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  transitional dummy package
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kmlmmj-php-web/disco,disco 1.3.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  web interface for mlmmj, written in php
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kmlmmj-php-web-admin/disco,disco 1.3.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  administrative web interface for mlmmj, written in php
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-all-dev/disco,disco 2:69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  package depending on all supported PHP development packages
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-amqp/disco 1.9.4-1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  AMQP extension for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-amqplib/disco,disco 2.8.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  pure PHP implementation of the AMQP protocol
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-apcu/disco 5.1.17+4.0.11-1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  APC User Cache for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-apcu-bc/disco 1.0.4-4 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  APCu Backwards Compatibility Module
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-ast/disco 0.1.6-2 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  AST extension for PHP 7
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-auth-sasl/disco,disco 1.0.6-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Abstraction of various SASL mechanism responses
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-bcmath/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Bcmath module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-bz2/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  bzip2 module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cache-integration-tests/disco,disco 0.16.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Integration tests for PSR-6 and PSR-16 cache implementations
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cache-lite/disco,disco 1.8.2-1build2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Fast and Safe little cache system
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cache-tag-interop/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Framework interoperable interfaces for tags
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cas/disco,disco 1.3.6-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Central Authentication Service client library in php
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cassandra/disco 1.3.0-1build1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  DataStax PHP Driver for Apache Cassandra
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cboden-ratchet/disco,disco 0.4.1-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP WebSocket library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cgi/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  server-side, HTML-embedded scripting language (CGI binary) (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cli/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  command-line interpreter for the PHP scripting language (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cocur-slugify/disco,disco 3.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Converts a string to a slug for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-codecoverage/disco,disco 6.1.4+dfsg-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  collection, processing, and rendering for code coverage
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-codesniffer/disco,disco 3.4.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP, CSS and JavaScript coding standard analyzer and checker
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-common/disco,disco,now 2:69ubuntu1 all [installed,automatic]
+:[K
+[K [KESCESC[KOO[KBB
+[K  Common files for PHP packages
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-ca-bundle/disco,disco 1.1.4-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  utility library to find a path to the system CA bundle
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-semver/disco,disco 1.4.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  utilities, version constraint parsing and validation
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-spdx-licenses/disco,disco 1.5.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  SPDX licenses list and validation library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-xdebug-handler/disco,disco 1.3.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Restarts a process without xdebug
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-console-commandline/disco,disco 1.2.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A full featured command line options and arguments parser
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-console-table/disco,disco 1.3.1-0.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Library that makes it easy to build console style tables
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-constant-time/disco,disco 2.2.3-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-curl/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  CURL module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-date/disco,disco 1.4.7-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Generic date/time handling class for PEAR
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-db/disco,disco 1.9.2-2ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Database Abstraction Layer
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-db-dataobject/disco,disco 1.11.5-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP PEAR module for object based SQL query building
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-deepcopy/disco,disco 1.8.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  create deep copies (clones) of objects
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-defuse-php-encryption/disco,disco 2.2.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Simple Encryption in PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-dev/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Files for PHP module development (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-dflydev-fig-cookies/disco,disco 2.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  FIG Cookies for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-directory-scanner/disco,disco 1.3.2-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  recursive directory scanner and filter
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-annotations/disco,disco 1.5.0really1.2.7-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Docblock Annotations Parser - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-bundle/disco,disco 1.10.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  bundle library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-cache/disco,disco 1.8.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  cache library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-cache-bundle/disco,disco 1.3.5-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  cache bundle library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-collections/disco,disco 1.5.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Collections Abstraction library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-common/disco,disco 2.10.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  common extensions for Doctrine
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-data-fixtures/disco,disco 1.2.2-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Data Fixtures for all Doctrine Object Managers
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-dbal/disco,disco 2.9.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  database abstraction layer for Doctrine
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-event-manager/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Doctrine Event Manager component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-inflector/disco,disco 1.2.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  string manipulations library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-instantiator/disco,disco 1.1.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  lightweight utility to instantiate objects in PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-lexer/disco,disco 1.0.1-4 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  base lexer library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-orm/disco,disco 2.6.3+dfsg-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  tool for object-relational mapping
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-persistence/disco,disco 1.1.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Doctrine Persistence abstractions
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-reflection/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Doctrine Reflection component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-dompdf/disco,disco 0.6.2+dfsg-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  HTML to PDF converter
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-ds/disco 1.2.6-2 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP extension providing efficient data structures for PHP 7
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-elisp/disco,disco 1.21.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  transitional package, php-elisp to elpa-php-mode
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-email-validator/disco,disco 2.1.7-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A library for validating emails against several RFCs
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-embed/disco,disco 3.3.7-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Get info from any web service or page
+:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-doctrine-bundle/disco,disco 1.10.2-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Docblock Annotations Parser - Doctrine component
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-doctrine-annotations/disco,disco 1.5.0really1.2.7-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  recursive directory scanner and filter
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-directory-scanner/disco,disco 1.3.2-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  FIG Cookies for PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-dflydev-fig-cookies/disco,disco 2.0.0-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Files for PHP module development (default)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-dev/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Simple Encryption in PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-defuse-php-encryption/disco,disco 2.2.1-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  create deep copies (clones) of objects
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-deepcopy/disco,disco 1.8.1-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  PHP PEAR module for object based SQL query building
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-db-dataobject/disco,disco 1.11.5-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Database Abstraction Layer
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-db/disco,disco 1.9.2-2ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Generic date/time handling class for PEAR
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-date/disco,disco 1.4.7-3 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  CURL module for PHP [default]
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-curl/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-constant-time/disco,disco 2.2.3-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Library that makes it easy to build console style tables
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-console-table/disco,disco 1.3.1-0.1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  A full featured command line options and arguments parser
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-console-commandline/disco,disco 1.2.1-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Restarts a process without xdebug
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-composer-xdebug-handler/disco,disco 1.3.2-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  SPDX licenses list and validation library
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-composer-spdx-licenses/disco,disco 1.5.0-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  utilities, version constraint parsing and validation
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-composer-semver/disco,disco 1.4.2-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  utility library to find a path to the system CA bundle
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-composer-ca-bundle/disco,disco 1.1.4-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Common files for PHP packages
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-common/disco,disco,now 2:69ubuntu1 all [installed,automatic]
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  PHP, CSS and JavaScript coding standard analyzer and checker
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-codesniffer/disco,disco 3.4.0-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  collection, processing, and rendering for code coverage
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-codecoverage/disco,disco 6.1.4+dfsg-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Converts a string to a slug for PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cocur-slugify/disco,disco 3.1-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  command-line interpreter for the PHP scripting language (default)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cli/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  server-side, HTML-embedded scripting language (CGI binary) (default)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cgi/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  PHP WebSocket library
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cboden-ratchet/disco,disco 0.4.1-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  DataStax PHP Driver for Apache Cassandra
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cassandra/disco 1.3.0-1build1 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Central Authentication Service client library in php
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cas/disco,disco 1.3.6-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Framework interoperable interfaces for tags
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cache-tag-interop/disco,disco 1.0.0-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Fast and Safe little cache system
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cache-lite/disco,disco 1.8.2-1build2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Integration tests for PSR-6 and PSR-16 cache implementations
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-cache-integration-tests/disco,disco 0.16.0-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  bzip2 module for PHP [default]
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-bz2/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Bcmath module for PHP [default]
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-bcmath/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Abstraction of various SASL mechanism responses
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-auth-sasl/disco,disco 1.0.6-3 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  AST extension for PHP 7
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-ast/disco 0.1.6-2 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  APCu Backwards Compatibility Module
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-apcu-bc/disco 1.0.4-4 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  APC User Cache for PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-apcu/disco 5.1.17+4.0.11-1 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  pure PHP implementation of the AMQP protocol
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-amqplib/disco,disco 2.8.1-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  AMQP extension for PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-amqp/disco 1.9.4-1 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  package depending on all supported PHP development packages
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMphp-all-dev/disco,disco 2:69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  administrative web interface for mlmmj, written in php
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMmlmmj-php-web-admin/disco,disco 1.3.0-3 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  web interface for mlmmj, written in php
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMmlmmj-php-web/disco,disco 1.3.0-3 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  transitional dummy package
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-swiftmailer/disco,disco 5.4.2-1.1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Snoopy is a PHP class that simulates a web browser
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-snoopy/disco,disco 2.0.0-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  RSS and Atom feed parsing in PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-simplepie/disco,disco 1.3.1+dfsg-3.1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Perl module to manipulate serialized PHP data structures
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-serialization-perl/disco,disco 0.34-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Flexible and feature-complete PHP client library for the Redis key-value store
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-predis/disco 0.8.3-1ubuntu1 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  full featured email transfer class for PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-phpmailer/disco,disco 6.0.6-0.1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  provides an XML-based RSS parser in PHP
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-magpierss/disco,disco 0.72-11 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Object oriented graph library for php (examples)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-jpgraph-examples/disco,disco 1.5.2-13 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Object oriented graph library for php
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-jpgraph/disco,disco 1.5.2-13 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Object-oriented PHP interface for the Jabber/XMPP protocol
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-jabber/disco,disco 0.4.3-5 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  HTML-embedded scripting language (Embedded SAPI library) (default)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-embed/disco,disco 2:7.2+69ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  ADOdb is a PHP database abstraction layer library
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibphp-adodb/disco,disco 5.20.14-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Perl bindings for GNU Libidn
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibnet-libidn-perl/disco,now 0.12.ds-3build1 amd64 [installed,automatic]
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  your all-in-one code tidier and validator
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMlibcode-tidyall-perl/disco,disco 0.67-3 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  localization files for KDevelop PHP plugin
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMkdevelop-php-l10n/disco,disco 5.3.2-0ubuntu1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  CGI scripting program for embedded environments
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMhaserl/disco 0.9.35-2 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  PHP-like Compression and Archive Extensions in Go
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMgolang-github-unknwon-cae-dev/disco,disco 0.0~git20160715.0.c6aac99-4 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  cluster monitoring toolkit - web front-end
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMganglia-webfrontend/disco,disco 3.6.1-3 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  PHP Mode for GNU Emacs
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMelpa-php-mode/disco,disco 1.21.0-1 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  rapid application development framework for PHP (scripts)
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMcakephp-scripts/disco,disco 2.10.11-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  web interface for graphing of monitoring systems
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMcacti/disco,disco 1.2.2+ds1-2 all
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  advanced Gtk+ text editor for web and software development
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMbluefish/disco 2.2.10-1 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HM  Tracks usage of TCP/IP and builds html files with graphs
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMbandwidthd-pgsql/disco 2.0.1+cvs20090917-10ubuntu1 amd64
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMFull Text Search...
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K[HMSorting...
+[56;1H
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KAA
+[K
+[K:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-predis/disco 0.8.3-1ubuntu1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  Flexible and feature-complete PHP client library for the Redis key-value store
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-serialization-perl/disco,disco 0.34-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Perl module to manipulate serialized PHP data structures
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-simplepie/disco,disco 1.3.1+dfsg-3.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  RSS and Atom feed parsing in PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-snoopy/disco,disco 2.0.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Snoopy is a PHP class that simulates a web browser
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Klibphp-swiftmailer/disco,disco 5.4.2-1.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  transitional dummy package
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kmlmmj-php-web/disco,disco 1.3.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  web interface for mlmmj, written in php
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kmlmmj-php-web-admin/disco,disco 1.3.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  administrative web interface for mlmmj, written in php
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-all-dev/disco,disco 2:69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  package depending on all supported PHP development packages
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-amqp/disco 1.9.4-1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  AMQP extension for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-amqplib/disco,disco 2.8.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  pure PHP implementation of the AMQP protocol
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-apcu/disco 5.1.17+4.0.11-1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  APC User Cache for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-apcu-bc/disco 1.0.4-4 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  APCu Backwards Compatibility Module
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-ast/disco 0.1.6-2 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  AST extension for PHP 7
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-auth-sasl/disco,disco 1.0.6-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Abstraction of various SASL mechanism responses
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-bcmath/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Bcmath module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-bz2/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  bzip2 module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cache-integration-tests/disco,disco 0.16.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Integration tests for PSR-6 and PSR-16 cache implementations
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cache-lite/disco,disco 1.8.2-1build2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Fast and Safe little cache system
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cache-tag-interop/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Framework interoperable interfaces for tags
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cas/disco,disco 1.3.6-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Central Authentication Service client library in php
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cassandra/disco 1.3.0-1build1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  DataStax PHP Driver for Apache Cassandra
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cboden-ratchet/disco,disco 0.4.1-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP WebSocket library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cgi/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  server-side, HTML-embedded scripting language (CGI binary) (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cli/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  command-line interpreter for the PHP scripting language (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-cocur-slugify/disco,disco 3.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Converts a string to a slug for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-codecoverage/disco,disco 6.1.4+dfsg-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  collection, processing, and rendering for code coverage
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-codesniffer/disco,disco 3.4.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP, CSS and JavaScript coding standard analyzer and checker
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-common/disco,disco,now 2:69ubuntu1 all [installed,automatic]
+:[K
+[K [KESCESC[KOO[KBB
+[K  Common files for PHP packages
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-ca-bundle/disco,disco 1.1.4-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  utility library to find a path to the system CA bundle
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-semver/disco,disco 1.4.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  utilities, version constraint parsing and validation
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-spdx-licenses/disco,disco 1.5.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  SPDX licenses list and validation library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-composer-xdebug-handler/disco,disco 1.3.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Restarts a process without xdebug
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-console-commandline/disco,disco 1.2.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A full featured command line options and arguments parser
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-console-table/disco,disco 1.3.1-0.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Library that makes it easy to build console style tables
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-constant-time/disco,disco 2.2.3-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-curl/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  CURL module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-date/disco,disco 1.4.7-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Generic date/time handling class for PEAR
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-db/disco,disco 1.9.2-2ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Database Abstraction Layer
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-db-dataobject/disco,disco 1.11.5-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP PEAR module for object based SQL query building
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-deepcopy/disco,disco 1.8.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  create deep copies (clones) of objects
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-defuse-php-encryption/disco,disco 2.2.1-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Simple Encryption in PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-dev/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Files for PHP module development (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-dflydev-fig-cookies/disco,disco 2.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  FIG Cookies for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-directory-scanner/disco,disco 1.3.2-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  recursive directory scanner and filter
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-annotations/disco,disco 1.5.0really1.2.7-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Docblock Annotations Parser - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-bundle/disco,disco 1.10.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  bundle library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-cache/disco,disco 1.8.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  cache library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-cache-bundle/disco,disco 1.3.5-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  cache bundle library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-collections/disco,disco 1.5.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Collections Abstraction library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-common/disco,disco 2.10.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  common extensions for Doctrine
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-data-fixtures/disco,disco 1.2.2-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Data Fixtures for all Doctrine Object Managers
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-dbal/disco,disco 2.9.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  database abstraction layer for Doctrine
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-event-manager/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Doctrine Event Manager component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-inflector/disco,disco 1.2.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  string manipulations library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-instantiator/disco,disco 1.1.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  lightweight utility to instantiate objects in PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-lexer/disco,disco 1.0.1-4 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  base lexer library - Doctrine component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-orm/disco,disco 2.6.3+dfsg-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  tool for object-relational mapping
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-persistence/disco,disco 1.1.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Doctrine Persistence abstractions
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-doctrine-reflection/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Doctrine Reflection component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-dompdf/disco,disco 0.6.2+dfsg-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  HTML to PDF converter
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-ds/disco 1.2.6-2 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP extension providing efficient data structures for PHP 7
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-elisp/disco,disco 1.21.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  transitional package, php-elisp to elpa-php-mode
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-email-validator/disco,disco 2.1.7-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A library for validating emails against several RFCs
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-embed/disco,disco 3.3.7-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Get info from any web service or page
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-enchant/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Enchant module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-enum/disco,disco 3.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Simple and fast implementation of enumerations with native PHP>=5.6
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-evenement/disco,disco 3.0.1-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Very simple event dispatching library for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-excimer/disco 0.1.0~git20181204.9f02079-1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP extension that provides a non-static, non-global profiler
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-fabiang-sasl/disco,disco 1.0.0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP SASL2 Authentication Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-facedetect/disco 1.1.0+git20170801-2 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  Detect faces with PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-fdomdocument/disco,disco 1.6.6-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  extension to PHP's standard DOM
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-fig-link-util/disco,disco 1.0.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Common utility implementations for HTTP links
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-file-iterator/disco,disco 2.0.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  FilterIterator implementation for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-finder-facade/disco,disco 1.2.2-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  convenience wrapper for Symfony's Finder component
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-finder-facade-doc/disco,disco 1.2.2-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  convenience wrapper for Symfony's Finder component - documentation
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-font-lib/disco,disco 0.3.1+dfsg-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  read, parse, export and make subsets of different fonts
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-fpdf/disco,disco 3:1.8.1.dfsg-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP class to generate PDF files
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-fpm/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  server-side, HTML-embedded scripting language (FPM-CGI binary) (default)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-fxsl/disco,disco 1.1.1-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  XSL wrapper and extension to XSLTProcessor
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-gd/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  GD module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-gearman/disco 2.0.5+1.1.2-3 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP wrapper to libgearman
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-geoip/disco 1.1.1-3 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  GeoIP module for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-geos/disco 1.0.0-4 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  GEOS bindings for PHP
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-geshi/disco,disco 1.0.8.11-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Generic Syntax Highlighter
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-getid3/disco,disco 1.9.17+dfsg-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  scripts to extract information from multimedia files
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-gettext/disco,disco 1.0.12-0.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  transitional dummy package for php-php-gettext
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-gmagick/disco 2.0.5~rc1+1.1.7~rc3-3 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  Provides a wrapper to the GraphicsMagick library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-gmp/disco,disco 2:7.2+69ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  GMP module for PHP [default]
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-gnupg/disco 1.4.0-3 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP wrapper around the gpgme library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-guestfs/disco 1:1.40.2-1ubuntu1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  guest disk image management system - PHP bindings
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-guzzlehttp-psr7/disco,disco 1.4.2-0.1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PSR-7 message implementation that also provides common utility methods
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde/disco,disco 5.2.20+debian0-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde base application
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-activesync/disco,disco 2.39.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  ActiveSync server library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-alarm/disco,disco 2.2.10-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Alarm Libraries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-ansel/disco,disco 3.0.8+debian0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Photo management application
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-argv/disco,disco 2.1.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde command-line argument parsing package
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-auth/disco,disco 2.2.2-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Authentication API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-autoloader/disco,disco 2.1.2-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Autoloader
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-browser/disco,disco 2.0.15-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Browser API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-cache/disco,disco 2.5.5-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Caching API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-cli/disco,disco 2.3.0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Command line interface library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-compress/disco,disco 2.2.1-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Compression API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-compress-fast/disco,disco 1.1.1-5 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Fast Compression Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-constraint/disco,disco 2.0.3-5 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Constraint library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-content/disco,disco 2.0.6-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Tagging application
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-controller/disco,disco 2.0.4-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Controller libraries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-core/disco,disco 2.31.1+debian0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Core Horde Framework library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-crypt/disco,disco 2.7.11-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Cryptography API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-crypt-blowfish/disco,disco 1.1.2-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Blowfish Encryption Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-css-parser/disco,disco 1.0.11-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde CSS Parser
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-cssminify/disco,disco 1.0.4-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  CSS Minification
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-data/disco,disco 2.1.4-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Data API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-date/disco,disco 2.4.1-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Date package
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-date-parser/disco,disco 2.0.6-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Date Parser
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-dav/disco,disco 1.1.4-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde library for WebDAV, CalDAV, CardDAV
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-db/disco,disco 2.4.0-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Database Libraries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-editor/disco,disco 2.0.5+debian0-2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Editor API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-elasticsearch/disco,disco 1.0.4-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde ElasticSearch client
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-exception/disco,disco 2.0.8-2ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Exception Handler
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-feed/disco,disco 2.0.4-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Feed libraries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-form/disco,disco 2.0.18-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Form API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-gollem/disco,disco 3.0.12-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Web-based file manager
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-group/disco,disco 2.1.1-4 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde User Groups System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-groupware/disco,disco 5.2.22-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Groupware
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-hashtable/disco,disco 1.2.6-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Hash Table Interface
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-history/disco,disco 2.3.6-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  API for tracking the history of an object
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-http/disco,disco 2.1.7-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde HTTP libraries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-icalendar/disco,disco 2.1.7-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  iCalendar API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-idna/disco,disco 1.1.1-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  IDNA backend normalization package
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-image/disco,disco 2.5.2-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Image API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-imap-client/disco,disco 2.29.16-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  IMAP client library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-imp/disco,disco 6.2.21-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A web based webmail system
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-imsp/disco,disco 2.0.10-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  IMSP API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-ingo/disco,disco 3.2.16-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  An email filter rules manager
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-injector/disco,disco 2.0.5-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde dependency injection container
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-itip/disco,disco 2.1.2-2ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  iTip invitation response handling
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-javascriptminify/disco,disco 1.1.5-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Javascript Minification
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-javascriptminify-jsmin/disco,disco 1.0.2-5ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Javascript Minifier - Jsmin PHP Driver
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-kolab-format/disco,disco 2.0.9-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A package for reading/writing Kolab data formats
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-kolab-server/disco,disco 2.0.5-5 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A package for manipulating the Kolab user database
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-kolab-session/disco,disco 2.0.3-3ubuntu2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A package managing an active Kolab session
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-kolab-storage/disco,disco 2.2.3-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A package for handling Kolab data stored on an IMAP server
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-kronolith/disco,disco 4.2.23-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A web based calendar
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-ldap/disco,disco 2.4.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde LDAP libraries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-listheaders/disco,disco 1.2.5-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde List Headers Parsing Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-lock/disco,disco 2.1.4-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Resource Locking System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-log/disco,disco 2.3.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Logging library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-logintasks/disco,disco 2.0.7-2ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Login Tasks System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-lz4/disco 1.0.10-2ubuntu1 amd64
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde LZ4 Compression Extension
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mail/disco,disco 2.6.4-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Mail Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mail-autoconfig/disco,disco 1.0.3-4 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Mail Autoconfiguration
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mapi/disco,disco 1.0.8-2ubuntu2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  MAPI utility library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-memcache/disco,disco 2.1.1-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Memcache API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mime/disco,disco 2.10.3-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde MIME Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mime-viewer/disco,disco 2.2.2-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde MIME Viewer Library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mnemo/disco,disco 4.2.14-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A web based notes manager
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-mongo/disco,disco 1.1.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Mongo Configuration
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-nag/disco,disco 4.2.17-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A web based task list manager
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-nls/disco,disco 2.2.1-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Native Language Support (NLS)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-notification/disco,disco 2.0.4-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Notification System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-oauth/disco,disco 2.0.4-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde OAuth client/server
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-openxchange/disco,disco 1.0.1-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Open-Xchange Connector
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-pack/disco,disco 1.0.7-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Pack Utility
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-passwd/disco,disco 5.0.7-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde password changing application
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-pdf/disco,disco 2.0.7-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde PDF library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-perms/disco,disco 2.1.7-2ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Permissions System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-prefs/disco,disco 2.9.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Preferences API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-queue/disco,disco 1.1.5-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Queue
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-rdo/disco,disco 2.1.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Rampage Data Objects
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-role/disco,disco 1.0.1-14 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PEAR installer role used to install Horde components
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-routes/disco,disco 2.0.5-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Routes URL mapping system
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-rpc/disco,disco 2.1.8-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde RPC API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-scheduler/disco,disco 2.0.3-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Scheduler System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-scribe/disco,disco 2.0.3-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Scribe
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-secret/disco,disco 2.0.6-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Secret Encryption API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-serialize/disco,disco 2.0.5-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Data Encapulation API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-service-facebook/disco,disco 2.0.10-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Facebook client
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-service-gravatar/disco,disco 1.0.1-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  API accessor for gravatar.com
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-service-twitter/disco,disco 2.1.6-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Twitter client
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-service-urlshortener/disco,disco 2.0.3-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde_Service_UrlShortener Class
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-service-weather/disco,disco 2.5.4-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Weather Provider
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-sesha/disco,disco 1.0.0~rc3-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  A simple Inventory App for Horde
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-sessionhandler/disco,disco 2.2.9-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Session Handler API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-share/disco,disco 2.2.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Shared Permissions System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-smtp/disco,disco 1.9.5-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde SMTP Client
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-socket-client/disco,disco 2.1.2-1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Network socket client library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-spellchecker/disco,disco 2.1.3-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Spellcheck API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-stream/disco,disco 1.6.3-5 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde stream handler
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-stream-filter/disco,disco 2.0.4-5 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Stream filters
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-stream-wrapper/disco,disco 2.1.4-0ubuntu2 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  PHP stream wrappers library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-support/disco,disco 2.2.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde support package
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-syncml/disco,disco 2.0.7-4 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde_SyncMl provides an API for processing SyncML requests
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-template/disco,disco 2.0.3-5 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Template System
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-test/disco,disco 2.6.3+debian0-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde testing base classes
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-text-diff/disco,disco 2.2.0-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Engine for performing and rendering text diffs
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-text-filter/disco,disco 2.3.5-1ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Text Filter API
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-text-filter-jsmin/disco,disco 1.0.2-5ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Text Filter - Jsmin PHP Driver
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-text-flowed/disco,disco 2.0.3-3ubuntu1 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde API for flowed text as per RFC 3676
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-thrift/disco,disco 2.0.3-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Thrift
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-timeobjects/disco,disco 2.1.4-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde timeobjects application
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-timezone/disco,disco 1.1.0-3 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Timezone library
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[Kphp-horde-token/disco,disco 2.0.9-4 all
+:[K
+[K [KESCESC[KOO[KBB
+[K  Horde Token API
+:[K
+[K[?1l>[?1049l[23;0;0t]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+
+
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ apt show php-cli
+Package: php-cli
+Version: 2:7.2+69ubuntu1
+Priority: optional
+Section: php
+Source: php-defaults (69ubuntu1)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 13.3 kB
+Depends: php7.2-cli
+Supported: 9m
+Download-Size: 2,872 B
+APT-Sources: http://in.archive.ubuntu.com/ubuntu disco/main amd64 Packages
+Description: command-line interpreter for the PHP scripting language (default)
+ This package provides the /usr/bin/php command interpreter, useful for
+ testing PHP scripts from a shell or performing general shell scripting tasks.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ This package is a dependency package, which depends on latest stable
+ PHP version (currently 7.2).
+
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$     sudo apt install php-cli
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following NEW packages will be installed:
+  php-cli
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2,872 B of archives.
+After this operation, 13.3 kB of additional disk space will be used.
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m
+                                        
+Get:1 http://in.archive.ubuntu.com/ubuntu disco/main amd64 php-cli all 2:7.2+69ubuntu1 [2,872 B]
+[33m
+                                        
+73% [1 php-cli 2,617 B/2,872 B 91%][0m[33m
+                                   
+100% [Working][0m
+              
+Fetched 2,872 B in 5s (537 B/s)
+
+7[0;55r8[1ASelecting previously unselected package php-cli.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 137738 files and directories currently installed.)
+Preparing to unpack .../php-cli_2%3a7.2+69ubuntu1_all.deb ...
+7[56;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................] 87[56;0f[42m[30mProgress: [ 20%][49m[39m [###############................................................................] 8Unpacking php-cli (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 40%][49m[39m [###############################................................................] 8Setting up php-cli (2:7.2+69ubuntu1) ...
+7[56;0f[42m[30mProgress: [ 60%][49m[39m [###############################################................................] 87[56;0f[42m[30mProgress: [ 80%][49m[39m [###############################################################................] 8
+7[0;56r8[1A[J]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+
+
+
+//Creating file for testing php and tested by http://ip_adress//info.php in web-browser.
+//screenshot provided.
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo nano /var/www/html/info.php
+[?1049h[22;0;0t[1;56r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[54;45H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 3.2                           /var/www/html/info.php                                      [1;100H(B[m
+[55d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[56d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[54d[3d[39;49m(B[m[?12l[?25h[?25l[1;92H(B[0;7mModified(B[m
+[3d(B[0;1m[32m<?php
+[4d(B[0m[37mphpinfo([39m(B[m);
+[5d(B[0;1m[32m?>[39m(B[m[?12l[?25h[?25l
+[54d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                        [55;1H Y(B[m Yes[K
+[56d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[54;63H[?12l[?25h[?25l[?12l[?25h[?25l
+[55d(B[0;7m^G(B[m Get Help[55;26H(B[0;7mM-D(B[m DOS Format[55;51H(B[0;7mM-A(B[m Append[55;76H(B[0;7mM-B(B[m Backup File
+[56d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[56;51H(B[0;7mM-P(B[m Prepend[56;76H(B[0;7m^T(B[m To Files
+[54d(B[0;7mFile Name to Write: /var/www/html/info.php                   
+(B[m[54;43H[?12l[?25h[?25l
+[K[1;100H[1;92H(B[0;7m        (B[m[54;43H(B[0;7m[ Wrote 3 lines ](B[m
+[J[56;101H[?12l[?25h[56;1H[?1049l[23;0;0t
+
+
+
+//Creating another file for testing php and tested by http://ip_adress//test.php in web-browser.
+//screenshot provided.
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo nano /var/www/html/test.php
+[?1049h[22;0;0t[1;56r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[54;43H(B[0;7m[ Reading File ](B[m[54;49H(B[0;7m 6 lines ](B[m[H(B[0;7m  GNU nano 3.2                           /var/www/html/test.php                                      [1;100H(B[m
+[55d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[56d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[54d[3d(B[0;1m[32m<?php[4;3H[36mecho[39m(B[m (B[0;1m[33m"WELCOME TO PHP"[39m(B[m;
+[5d[42m  [6d(B[0;1m[36mecho[39m(B[m (B[0;1m[33m"\tThis code is just to test whether php is working correctly or not!"[39m(B[m;
+[7d(B[0;1m[32m?>
+[3d[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[1;92H(B[0;7mModified(B[m
+[6d[1P [?12l[?25h[?25l[1P[?12l[?25h[?25l[5;53r[53;1H
+[1;56r[5;1H  (B[0;1m[36mecho[39m(B[m (B[0;1m[33m"\tThis code is just to test whether php is working correctly or not!"[39m(B[m;
+  [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25ltThis code is just to test whether php is working correctly (B[0;1m[36mor[39m(B[m not!";[K[8G[?12l[?25h[?25l(B[0;1m[33m"tThis code is just to test whether php is working correctly or not!"[39m(B[m;[5;9H[?12l[?25h[?25l[C[?12l[?25h[?25l[1P[?12l[?25h[?25l(B[0;1m[33m\r\nThis code is just to test whether php is working correctly or not!"[39m(B[m;
+[54d[K[5;13H[?12l[?25h[?25l
+[54d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                        [55;1H Y(B[m Yes[K
+[56d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[54;63H[?12l[?25h[?25l
+[55d(B[0;7m^G(B[m Get Help[55;26H(B[0;7mM-D(B[m DOS Format[55;51H(B[0;7mM-A(B[m Append[55;76H(B[0;7mM-B(B[m Backup File
+[56d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[56;51H(B[0;7mM-P(B[m Prepend[56;76H(B[0;7m^T(B[m To Files
+[54d(B[0;7mFile Name to Write: /var/www/html/test.php                   
+(B[m[54;43H[?12l[?25h[?25l
+[K[1;100H[1;92H(B[0;7m        (B[m[54;43H(B[0;7m[ Wrote 5 lines ](B[m
+[J[56;101H[?12l[?25h[56;1H[?1049l[23;0;0t
+
+//php components successfully installed.
+
+
+
+[?1l>]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-27 12:04:12+05:30 [COMMAND_EXIT_CODE="0"]
